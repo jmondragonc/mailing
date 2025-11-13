@@ -50,7 +50,7 @@ const getData = async () => {
     if (item.nuevo == "SI") {
       let foto = "";
       if (item.foto != null && item.foto != "") {
-        foto = `https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/fotos/${item.foto}`;
+        foto = `https://juntosmovemoselmundo.pe/mailing/volvo/2025/10/fotos/${item.foto}`;
       } else {
         foto = "https://juntosmovemoselmundo.pe/mailing/2025/portada_nuevo.jpg";
       }
@@ -209,7 +209,7 @@ const getData = async () => {
                           <td>
                             <span style="font-size: 0; line-height: 0"
                               ><img
-                                src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/${item.header}"
+                                src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/10/${item.header}"
                                 width="750"
                                 height="296"
                                 alt=""
@@ -233,7 +233,7 @@ const getData = async () => {
                         <tr>
                           <td>
                             <img
-                              src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/${item.footer}"
+                              src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/10/${item.footer}"
                               width="750"
                               height="716"
                               alt=""
@@ -398,7 +398,7 @@ const getData = async () => {
     } else {
       let foto = "";
       if (item.foto != null && item.foto != "") {
-        foto = `https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/fotos/${item.foto}`;
+        foto = `https://juntosmovemoselmundo.pe/mailing/volvo/2025/10/fotos/${item.foto}`;
       } else {
         foto = "https://juntosmovemoselmundo.pe/mailing/2025/portada_nuevo.jpg";
       }
@@ -556,7 +556,7 @@ const getData = async () => {
                           <td>
                             <span style="font-size: 0; line-height: 0"
                               ><img
-                                src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/${item.header}"
+                                src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/10/${item.header}"
                                 width="750"
                                 height="296"
                                 alt=""
@@ -580,7 +580,7 @@ const getData = async () => {
                         <tr>
                           <td>
                             <img
-                              src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/${item.footer}"
+                              src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/10/${item.footer}"
                               width="750"
                               height="716"
                               alt=""

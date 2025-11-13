@@ -3,8 +3,8 @@ const mandrillTransport = require("nodemailer-mandrill-transport");
 const mysql = require("mysql2/promise");
 const moment = require("moment");
 var schedule = require("node-schedule");
-var date = new Date(2025, 3, 10, 10, 0, 0);
-var date2 = new Date(2025, 3, 10, 10, 1, 0);
+var date = new Date(2025, 9, 9, 10, 0, 0);
+var date2 = new Date(2025, 9, 9, 10, 1, 0);
 
 const config = {
   db: {
@@ -51,7 +51,7 @@ const getData = async () => {
     if (item.nuevo == "SI") {
       let foto = "";
       if (item.foto != null && item.foto != "") {
-        foto = `https://juntosmovemoselmundo.pe/mailing/volvo/2025/03/fotos/${item.foto}`;
+        foto = `https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/fotos/${item.foto}`;
       } else {
         foto = "https://juntosmovemoselmundo.pe/mailing/2025/portada_nuevo.jpg";
       }
@@ -209,7 +209,7 @@ const getData = async () => {
                           <td>
                             <span style="font-size: 0; line-height: 0"
                               ><img
-                                src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/03/${item.header}"
+                                src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/${item.header}"
                                 width="750"
                                 height="296"
                                 alt=""
@@ -233,7 +233,7 @@ const getData = async () => {
                         <tr>
                           <td>
                             <img
-                              src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/03/${item.footer}"
+                              src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/${item.footer}"
                               width="750"
                               height="716"
                               alt=""
@@ -253,7 +253,7 @@ const getData = async () => {
                         <tr>
                           <td>
                             <a
-                              href="https://www.volvotrucks.pe/content/dam/volvo-trucks/markets/peru/CONTACt%20TRUCK%20BUS.pdf"
+                              href="https://www.volvotrucks.pe/content/dam/volvo-trucks/markets/peru/Volvo%20-%20contacto%20de%20concesionarios.pdf"
                               style="display: block; text-decoration: none; border: 0"
                               ><img
                                 src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/btn.png"
@@ -408,7 +408,7 @@ const getData2 = async () => {
       //if (i == 0) {
       let foto = "";
       if (item.foto != null && item.foto != "") {
-        foto = `https://juntosmovemoselmundo.pe/mailing/volvo/2025/03/fotos/${item.foto}`;
+        foto = `https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/fotos/${item.foto}`;
       } else {
         foto = "https://juntosmovemoselmundo.pe/mailing/2025/portada_nuevo.jpg";
       }
@@ -566,7 +566,7 @@ const getData2 = async () => {
                           <td>
                             <span style="font-size: 0; line-height: 0"
                               ><img
-                                src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/03/${item.header}"
+                                src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/${item.header}"
                                 width="750"
                                 height="296"
                                 alt=""
@@ -590,7 +590,7 @@ const getData2 = async () => {
                         <tr>
                           <td>
                             <img
-                              src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/03/${item.footer}"
+                              src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/09/${item.footer}"
                               width="750"
                               height="716"
                               alt=""
@@ -610,7 +610,7 @@ const getData2 = async () => {
                         <tr>
                           <td>
                             <a
-                              href="https://www.volvotrucks.pe/content/dam/volvo-trucks/markets/peru/CONTACt%20TRUCK%20BUS.pdf"
+                              href="https://www.volvotrucks.pe/content/dam/volvo-trucks/markets/peru/Volvo%20-%20contacto%20de%20concesionarios.pdf"
                               style="display: block; text-decoration: none; border: 0"
                               ><img
                                 src="https://juntosmovemoselmundo.pe/mailing/volvo/2025/btn.png"
