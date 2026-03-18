@@ -396,7 +396,7 @@ const getData = async () => {
       //End sending mail.
     } else {
       //console.log("cliente", item.cliente, i);
-      if (i == 0) {
+      if (i == 17) {
         console.log("cliente", item.cliente);
         let foto = "";
         if (item.foto != null && item.foto != "") {
